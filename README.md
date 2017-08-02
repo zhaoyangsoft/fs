@@ -21,7 +21,7 @@ https://palantir.github.io/tslint/rules/
 tslint-config-prettier
 
 
-#ShortCutKey:
+# ShortCutKey:
 
 ## shell
    ctrl + R  ， 搜索执行过的命令;
