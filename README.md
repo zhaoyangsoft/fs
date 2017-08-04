@@ -17,6 +17,9 @@ https://palantir.github.io/tslint/usage/cli/
 ## Rules
 https://palantir.github.io/tslint/rules/
 
+## typeScript
+https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html
+
 
 tslint-config-prettier
 
