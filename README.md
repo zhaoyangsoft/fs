@@ -20,6 +20,9 @@ https://palantir.github.io/tslint/rules/
 ## typeScript
 https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html
 
+## react & webpack & typescript
+https://www.tslang.cn/docs/handbook/react-&-webpack.html
+
 
 tslint-config-prettier
 
