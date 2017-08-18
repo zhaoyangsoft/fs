@@ -23,6 +23,9 @@ https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html
 ## react & webpack & typescript
 https://www.tslang.cn/docs/handbook/react-&-webpack.html
 
+## is some error could't commit like could't creat .lock file
+  use git commit -n  ; skip precommit check 
+
 
 tslint-config-prettier
 
@@ -31,6 +34,8 @@ tslint-config-prettier
 
 ## shell
    ctrl + R  ， 搜索执行过的命令;
+   
+
 
 
 
