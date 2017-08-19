@@ -36,6 +36,37 @@ tslint-config-prettier
    ctrl + R  ， 搜索执行过的命令;
    
 
+```js 
+/**
+ * 加载菜单数据
+ * TODO 替换成 Swagger 上的真实接口
+ */
+const loadMenuData = (): ActionResult =>{
+  return [
+    {
+      types: [
+        'MENU_LOAD_DATA',
+        'MENU_LOAD_DATA_SUCCESS'
+      ],
+      credentials: 'omit',
+      url: '//rap.alibaba-inc.com/mockjsdata/2004/api/bizunit/allList'
+    },
+    (dispatch, getState) => {
+      const {
+        menuDataId
+      } = getState().starGraph.starGraph;
+      return  dispatch({
+        types: [
+          'STAR_LOAD_DATA',
+          'STAR_LOAD_DATA_SUCCESS'
+        ],
+        credentials: 'omit',
+        url: `//rap.alibaba-inc.com/mockjsdata/2004/api/bizunit/allList?a=${menuDataId}`
+      });
+    }
+  ];
+};
+```
 
 
 
