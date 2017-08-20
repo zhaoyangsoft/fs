@@ -20,6 +20,10 @@ https://palantir.github.io/tslint/rules/
 ## typeScript
 https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html
 
+## yarn 
+http://qianduan.guru/2016/11/09/yarn-vs-npm/
+
+
 ## react & webpack & typescript
 https://www.tslang.cn/docs/handbook/react-&-webpack.html
 
