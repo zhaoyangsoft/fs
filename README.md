@@ -37,6 +37,9 @@ https://www.tslang.cn/docs/handbook/react-&-webpack.html
 
 tslint-config-prettier
 
+## 放弃本机所修改，强制reset 到远程分支
+git reset --hard origin/feature/dimGraph  
+
 
 # ShortCutKey:
 
